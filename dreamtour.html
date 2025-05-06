@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dreamtour.css" />
+    <link rel="stylesheet" href="dreamtour.js">
+    <script src="dreamtour.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="/xyz/slick/slick.css">
+  </head>
+  <body>
+    <section class="top-header">
+      <div class="top-container">
+        <div class="container">
+        <header class="header-1">
+          <div class="top-box">
+            <div class="logo">
+              <img src="/projects/DreamsTour/all images/logo-dark.svg" alt="" />
+            </div>
+            <div class="menu ">
+              <ul class="menu-list">
+                <li class="menu-options">
+                  <a href="" class="list-options">Home</a>
+                </li>
+                <li class="menu-options">
+                  <a href="" class="list-options">Flight</a>
+                </li>
+                <li class="menu-options">
+                  <a href="" class="list-options">Hotel</a>
+                </li>
+                <li class="menu-options">
+                  <a href="" class="list-options">Car</a>
+                </li>
+                <li class="menu-options">
+                  <a href="" class="list-options">Cruise</a>
+                </li>
+                <li class="menu-options">
+                  <a href="" class="list-options">Tour</a>
+                </li>
+                <li class="menu-options">
+                  <a href="" class="list-options" >Pages</a>
+                </li>
+                <li class="menu-options">
+                  <a href=""class="list-options">Dashboard</a>
+                </li>
+              </ul>
+            </div>
+            <div class="header-last">
+              <a href="" class="sign-btt">sign in <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </header>
+      </div>
+      <section class="hero-section-1">
+        <div class="container py-5 mt-5">
+          <div class="row">
+            <div class="col-7 py-5" style="color: white;">
+              <p class="fs-1 fw-bolder">
+              Discover the World's Most Breathtaking Cruises
+              </p>
+              <p class="fw-bolder">
+                Explore stunning destinations and world-class experiences aboard our award-winning ships
+              </p>
+            </div> 
+          </div>
+          <div class="hero-services-box" style="background-color: #fff; border-radius: 10px;">
+            <div class="container">
+              <div class="service-provide">
+                <ul class="d-flex" style="list-style: none;">
+                  <li class="our-service px-2 py-2 mt-4"> <a class="p-2" href=""><span><i class="fa-solid fa-plane-up"></i></span> Flight </a></li>
+                  <li class="our-service px-2 py-2 mt-4"> <a class="p-2" href=""><span> <i class="fa-solid fa-hotel"></i></span> Hotels </a></li>
+                  <li class="our-service px-2 py-2 mt-4"> <a class="p-2" href=""><span> <i class="fa-solid fa-car"></i></span> Cars </a></li>
+                  <li class="our-service px-2 py-2 mt-4"> <a class="p-2" href=""><span> <i class="fa-solid fa-ship"></i></span> Cruises </a></li>
+                  <li class="our-service px-2 py-2 mt-4"> <a class="p-2" href=""><span> <i class="fa-solid fa-camera"></i></span> Tour </a></li>
+                </ul>
+                <hr>
+                <p class="fs-4 mb-0 ms-1">Search For Cruise</p>
+                  <div class="row pb-5 pt-3 px-3">
+                    <div class="col"  style="border: 1px solid rgba(78, 78, 78, 0.45);">
+                      <div class="pt-3">
+                      <p class="mb-3">Destination</p>
+                      <p class="mb-1 h4">Newyork</p>
+                      <p class="mb-0">USA</p>
+                    </div>
+                    </div>
+                    <div class="col"  style="border: 1px solid rgba(78, 78, 78, 0.45);">
+                      <div class="pt-3">
+                      <p class="mb-3">Start</p>
+                      <input type="date">
+                      <p class="mt-2">Monday</p>
+                      </div>
+                    </div>
+                    <div class="col"  style="border: 1px solid rgba(78, 78, 78, 0.45);">
+                      <div class="pt-3">
+                      <p class="mb-3">End</p>
+                      <input type="date" placeholder="21-10-2025">
+                      <p class="mt-2">Monday</p>
+                      </div>
+                    </div>
+                    <div class="col"  style="border: 1px solid rgba(78, 78, 78, 0.45);">
+                      <div class="pt-3">
+                      <p class="mb-3">Travellers & Cabbin</p>
+                      <p class="mb-2"><span class="h4">4</span> Persons</p>
+                      <p class="mb-0">4Adult,2Rooms</p>
+                    </div>
+                    </div>
+                    <div class="col-1 search-a-cruise"  > 
+                      <button class="py-5 px-3 ms-2 me-3 mb-0  fs-5" style="border: 0px; border-radius: 10px; background-color: #D4483B; color: #fff; height: 100%;">Search</button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
+    </section>
+    <section class="page-2">
+      <div class="container">
+        <div class="page-2-content">
+        <header class="heading-2">
+          <p class="header-2-top">
+            Explore Our <span class="header-2-top-half">Cruise Types</span>
+          </p>
+          <p class="header-2-down">
+            Find the perfect cruise experience tailored to your unique interests and travel style.
+          </p>
+        </header>
+        <div class="page-2-hero-content row">
+          <div class="img-1 col-2">
+          <img src="/projects/DreamsTour/all images/cruise-15.jpg" alt="" style="border-radius: 40%;">
+          <a href="" class="img-1-text">Luxury Cruise</a>
+          </div>
+          <div class="img-1 col-2">
+          <img src="/projects/DreamsTour/all images/cruise-16.jpg" alt=""style="border-radius: 40%;">
+          <a href="" class="img-1-text">Adventure Cruise</a>
+          </div>
+          <div class="img-1 col-2">
+          <img src="/projects/DreamsTour/all images/cruise-17.jpg" alt=""style="border-radius: 40%;">
+          <a href="" class="img-1-text">Expedition Cruise</a>
+          </div>
+          <div class="img-1 col-2">
+          <img src="/projects/DreamsTour/all images/cruise-18.jpg" alt=""style="border-radius: 40%;">
+          <a href="" class="img-1-text">Family Cruise</a>
+          </div>
+          <div class="img-1 col-2">
+          <img src="/projects/DreamsTour/all images/cruise-19.jpg" alt=""style="border-radius: 40%;">
+          <a href="" class="img-1-text">River Cruise</a>
+          </div>
+          <div class="img-1 col-2">
+          <img src="/projects/DreamsTour/all images/cruise-20.jpg" alt="" style="border-radius: 40%;">
+         <a href="" class="img-1-text">World Cruises</a>
+          </div>
+          <div class="img-1 col-2">
+            <img src="/projects/DreamsTour/all images/cruise-15.jpg" alt="" style="border-radius: 40%;">
+            <a href="" class="img-1-text">Luxury Cruise</a>
+            </div>
+            <div class="img-1 col-2">
+              <img src="/projects/DreamsTour/all images/cruise-18.jpg" alt=""style="border-radius: 40%;">
+              <a href="" class="img-1-text">Family Cruise</a>
+              </div>
+              <div class="img-1 col-2">
+                <img src="/projects/DreamsTour/all images/cruise-16.jpg" alt=""style="border-radius: 40%;">
+                <a href="" class="img-1-text">Adventure Cruise</a>
+                </div>
+                <div class="img-1 col-2">
+                  <img src="/projects/DreamsTour/all images/cruise-19.jpg" alt=""style="border-radius: 40%;">
+                  <a href="" class="img-1-text">River Cruise</a>
+                  </div>
+        </div>
+        <div class="page-2-last-button">
+          <button type="button" class="more-categories">More Categories</button>
+        </div>
+        </div>
+      </div>
+      <div class="last-heading-item">
+        <marquee width="100%" direction="left"  onmouseover="this.stop();" onmouseout="this.start();" class="py-3">
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Personalized Itineraries</span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Comprehensive Planning  </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Expert Guidance         </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Local Experience        </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Customer Support        </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Sustainability Efforts  </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Safety And Security     </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Exclusive Offers        </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Travel Insurance        </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Loyalty Programs        </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Travel Insurance        </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Personalized Itineraries</span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Comprehensive Planning  </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Expert Guidance         </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Local Experience        </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Customer Support        </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Sustainability Efforts  </span>
+          <span class="support-item me-3 h3" style="color: white"><i class="fa-solid fa-star mx-4"></i> Safety And Security     </span>
+        </marquee>
+      </div> 
+    </section>
+    <section class="page-3">
+      <div class="container">
+        <div class="page-3-hero">
+          <div class="page-3-imgs">
+            <div class="left-side-1">
+              <p class="exp-15"> 15 Years Of Experience </p>
+              <img src="/projects/DreamsTour/all images/cruise-22.jpg" alt="">
+            </div>
+             <div class="left-side-2">
+              <img src="/projects/DreamsTour/all images/cruise-21.jpg" alt="">
+             </div>
+          </div>
+          <div class="page-3-note">
+            <div class="page-3-head">
+              <p class="discover"> Discover <span class="who"> Who We Are</span></p>
+            </div>
+            <div class="page-3-body"><p>At DreamsTour, we are passionate about turning your dream vacation into a reality. With years of experience in the cruise industry, we specialize in offering a wide range of cruise options tailored to meet your preferences, whether you’re seeking adventure, relaxation, or family fun.</p>
+            </div>
+            <div class="down-boxes">
+              <div class="down-b-1">
+                <div class="ex-logo"> <img src="extensive.svg" alt=""></div>
+                <div class="b-inside">
+                <p class="b-2-head">Extensive Cruise Options</p>
+                <p>We partner with top cruise lines to offer a diverse selection of cruise</p>
+                </div>
+             </div>
+              <div class="down-b-2">
+                <div class="tru-logo"><img src="trust.svg" alt="">
+                </div>
+                <div class="b-inside">
+                <p class="b-2-head">Trust And Expertise</p>
+                <p>With Years Of Industry Expertise And A Passion For travel</p>
+                </div>
+             </div>
+            </div>
+            <a href="https://dreamstour.dreamstechnologies.com/html/index-5.html" target="_blank">
+              <button type="button" class="about-us">More About Us  ></button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-4 pt-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center">Popular <span style="color: rgba(194, 19, 19, 0.903);text-decoration: underline;">Destinations</span></h2>
+            <p class="text-center">Embark on unforgettable journeys to the world's most sought-after cruise ports
+            </p>
+          </div>
+        </div>
+        <div class="row image-box">
+          <div class="col-3">
+            
+             <div class="main-image-box position-relative">
+               <div class="overlay-black">
+                 <img src="/projects/DreamsTour/all images/destination-07.jpg" alt="destination" width="100%">
+               </div>
+               <div class="image-content">
+                 <p class="text-center mb-0 text-white fw-bold heading-first">Caribbean </p>
+                 <p class="text-center mb-2 text-white">100 Cruises</p>                
+                </div>
+             </div>
+             
+             <div class="main-image-box position-relative">
+              <div class="overlay-black">
+                <img src="/projects/DreamsTour/all images/destination-08.jpg" alt="destination" width="100%">
+              </div>
+              <div class="image-content">
+                <p class="text-center mb-0 text-white fw-bold heading-first">Canary Islands</p>
+                <p class="text-center mb-2 text-white">300 Cruises</p>                
+               </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="main-image-box position-relative">
+              <div class="overlay-black">
+                <img src="/projects/DreamsTour/all images/destination-09.webp" alt="destination" width="100%">
+              </div>
+              <div class="image-content">
+                <p class="text-center mb-0 text-white fw-bold heading-first">Mediterranean </p>
+                <p class="text-center mb-2 text-white">200 Cruises</p>                
+               </div>
+            </div>
+            <div class="main-image-box position-relative">
+              <div class="overlay-black">
+                <img src="/projects/DreamsTour/all images/destination-10.jpg" alt="destination" width="100%">
+              </div>
+              <div class="image-content">
+                <p class="text-center mb-0 text-white fw-bold heading-first">Northern Europe </p>
+                <p class="text-center mb-2 text-white">250 Cruises</p>                
+               </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="main-image-box position-relative">
+              <div class="overlay-black">
+                <img src="/projects/DreamsTour/all images/destination-11.jpg" alt="destination" width="100%">
+              </div>
+              <div class="image-content">
+                <p class="text-center mb-0 text-white fw-bold heading-first">Alaska </p>
+                <p class="text-center mb-2 text-white">370 Cruises</p>                
+               </div>
+            </div>
+            <div class="main-image-box position-relative">
+              <div class="overlay-black">
+                <img src="/projects/DreamsTour/all images/destination-12.webp" alt="destination" width="100%">
+              </div>
+              <div class="image-content">
+                <p class="text-center mb-0 text-white fw-bold heading-first">Panama Canal </p>
+                <p class="text-center mb-2 text-white">180 Cruises</p>                
+               </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="main-image-box position-relative">
+              <div class="overlay-black">
+                <img src="/projects/DreamsTour/all images/destination-13.jpg" alt="destination" width="100%">
+              </div>
+              <div class="image-content">
+                <p class="text-center mb-0 text-white fw-bold heading-first">Hawaiian Islands </p>
+                <p class="text-center mb-2 text-white">400 Cruises </p>                
+               </div>
+            </div>
+            <div class="main-image-box position-relative">
+              <div class="overlay-black">
+                <img src="/projects/DreamsTour/all images/destination-14.webp" alt="destination" width="100%">
+              </div>
+              <div class="image-content">
+                <p class="text-center mb-0 text-white fw-bold heading-first">British Isles </p>
+                <p class="text-center mb-2 text-white">120 Cruises</p>                
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-4-bottom " style="background-color:red;">
+        <div class="container">
+          <div class="row first-slick ms-5">
+          <div class="col-2 fw-bold py-4 "><i class="fa-regular fa-message"></i>LiveChat</div>
+          <div class="col-2 fw-bold py-4 ">Pandasuite</div>
+          <div class="col-2 fw-bold py-4 "><i class="fa-brands fa-paypal"></i>Payhere</div>
+          <div class="col-2 fw-bold py-4 "><i class="fa-solid fa-circle"></i>Headspace</div>
+          <div class="col-2 fw-bold py-4 ">MemberStack</div>
+          <div class="col-2 fw-bold py-4 "><i class="fa-regular fa-message"></i>LiveChat</div>
+          <div class="col-2 fw-bold py-4 ">Pandasuite</div>
+          <div class="col-2 fw-bold py-4 "><i class="fa-brands fa-paypal"></i>Payhere</div>
+          <div class="col-2 fw-bold py-4 "><i class="fa-solid fa-circle"></i>Headspace</div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-5 py-5">
+      <div class="container py-3" style="text-align: center;">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center fw-bold">Featured <span style="color: red; text-decoration: underline;">Cruises</span></h2>
+            <p class="text-center mb-0">Discover our handpicked selection of top-rated cruises,offering </p>
+            <p  class="text-center">exceptional experiences and unbeatable deals</p>
+          </div>
+        </div>
+       <div class="row pb-5">
+        <div class="col-3">
+          <div class="page-5-cards pb-4" style="background-color: rgba(174, 174, 174, 0.559);">
+            <div class="cruises-img">
+              <img src="/projects/DreamsTour/all images/cruise-01.webp" alt="cruise-1" width="100%">
+            </div>
+            <div class="container">
+            <div class="page-5-cards-inside pt-3 pb-1" >
+             <div class="reviews">
+              <img src="/projects/DreamsTour/all images/user-03.webp" alt="user-03" width="8%"> <span class="cust-name px-1" style="border-right: 1px solid gray;">Beth williams</span> <span class="rating px-2 mx-1" style="background-color: rgb(255, 195, 31); border-radius: 5px; ">5.0</span> <span class="no.-revi">(400 Reviews)</span>
+             </div> 
+             <p class="fw-bold fs-5 mb-1">Super Auramarine</p>
+             <p class="mb-2"><i class=" fa-solid fa-location-dot "></i> Cuitat Vella,Barcelona</p>
+             <div class="d-flex">
+              <div>
+                <p class="mb-0"> <i class="fa-solid fa-calendar-days"></i> Year : 2021</p>
+                <p ><i class="fa-regular fa-user"></i> Guests : 4</p>
+              </div>
+              <div class="px-3">
+                <p class="mb-0 pe-2"><i class="fa-solid fa-ruler-horizontal"></i> Width : 88.7m</p>
+                <p ><i class="fa-solid fa-gauge pe-2"></i>Speed : 19 knots</p>
+              </div>
+             </div>
+            </div><hr class="my-0"></hr>
+            <div>
+              <i class="fa-solid fa-wifi"></i>
+              <i class="fa-solid fa-slash-circle"></i>
+              <span class="perrate">$500/Day</span>
+            </div>
+          </div>
+          </div>
+        </div><div class="col-3">
+          <div class="page-5-cards pb-4" style="background-color: rgba(174, 174, 174, 0.559);">
+            <div class="cruises-img">
+              <img src="/projects/DreamsTour/all images/cruise-02.webp" alt="cruise-1" width="100%">
+            </div>
+            <div class="container">
+            <div class="page-5-cards-inside pt-3 pb-1" >
+             <div class="reviews">
+              <img src="/projects/DreamsTour/all images/user-03.webp" alt="user-03" width="8%"> <span class="cust-name px-1" style="border-right: 1px solid gray;">Beth williams</span> <span class="rating px-2 mx-1" style="background-color: rgb(255, 195, 31); border-radius: 5px; ">5.0</span> <span class="no.-revi">(400 Reviews)</span>
+             </div> 
+             <p class="fw-bold fs-5 mb-1">Super Auramarine</p>
+             <p class="mb-2"><i class=" fa-solid fa-location-dot "></i> Cuitat Vella,Barcelona</p>
+             <div class="d-flex">
+              <div>
+                <p class="mb-0"> <i class="fa-solid fa-calendar-days"></i> Year : 2021</p>
+                <p ><i class="fa-regular fa-user"></i> Guests : 4</p>
+              </div>
+              <div class="px-3">
+                <p class="mb-0 pe-2"><i class="fa-solid fa-ruler-horizontal"></i> Width : 88.7m</p>
+                <p ><i class="fa-solid fa-gauge pe-2"></i>Speed : 19 knots</p>
+              </div>
+             </div>
+            </div><hr class="my-0"></hr>
+            <div>
+              <i class="fa-solid fa-wifi"></i>
+              <i class="fa-solid fa-slash-circle"></i>
+              <span class="perrate">$500/Day</span>
+            </div>
+          </div>
+          </div>
+        </div><div class="col-3">
+          <div class="page-5-cards pb-4" style="background-color: rgba(174, 174, 174, 0.559);">
+            <div class="cruises-img">
+              <img src="/projects/DreamsTour/all images/cruise-03.webp" alt="cruise-1" width="100%">
+            </div>
+            <div class="container">
+            <div class="page-5-cards-inside pt-3 pb-1" >
+             <div class="reviews">
+              <img src="/projects/DreamsTour/all images/user-03.webp" alt="user-03" width="8%"> <span class="cust-name px-1" style="border-right: 1px solid gray;">Beth williams</span> <span class="rating px-2 mx-1" style="background-color: rgb(255, 195, 31); border-radius: 5px; ">5.0</span> <span class="no.-revi">(400 Reviews)</span>
+             </div> 
+             <p class="fw-bold fs-5 mb-1">Super Auramarine</p>
+             <p class="mb-2"><i class=" fa-solid fa-location-dot "></i> Cuitat Vella,Barcelona</p>
+             <div class="d-flex">
+              <div>
+                <p class="mb-0"> <i class="fa-solid fa-calendar-days"></i> Year : 2021</p>
+                <p ><i class="fa-regular fa-user"></i> Guests : 4</p>
+              </div>
+              <div class="px-3">
+                <p class="mb-0 pe-2"><i class="fa-solid fa-ruler-horizontal"></i> Width : 88.7m</p>
+                <p ><i class="fa-solid fa-gauge pe-2"></i>Speed : 19 knots</p>
+              </div>
+             </div>
+            </div><hr class="my-0"></hr>
+            <div>
+              <i class="fa-solid fa-wifi"></i>
+              <i class="fa-solid fa-slash-circle"></i>
+              <span class="perrate">$500/Day</span>
+            </div>
+          </div>
+          </div>
+        </div>
+          <div class="col-3">
+            <div class="page-5-cards pb-4" style="background-color: rgba(174, 174, 174, 0.559);">
+              <div class="cruises-img">
+                <img src="/projects/DreamsTour/all images/cruise-03.webp" alt="cruise-1" width="100%">
+              </div>
+              <div class="container">
+              <div class="page-5-cards-inside pt-3 pb-1" >
+               <div class="reviews">
+                <img src="/projects/DreamsTour/all images/user-03.webp" alt="user-03" width="8%"> <span class="cust-name px-1" style="border-right: 1px solid gray;">Beth williams</span> <span class="rating px-2 mx-1" style="background-color: rgb(255, 195, 31); border-radius: 5px; ">5.0</span> <span class="no.-revi">(400 Reviews)</span>
+               </div> 
+               <p class="fw-bold fs-5 mb-1">Super Auramarine</p>
+               <p class="mb-2"><i class=" fa-solid fa-location-dot "></i> Cuitat Vella,Barcelona</p>
+               <div class="d-flex">
+                <div>
+                  <p class="mb-0"> <i class="fa-solid fa-calendar-days"></i> Year : 2021</p>
+                  <p ><i class="fa-regular fa-user"></i> Guests : 4</p>
+                </div>
+                <div class="px-3">
+                  <p class="mb-0 pe-2"><i class="fa-solid fa-ruler-horizontal"></i> Width : 88.7m</p>
+                  <p ><i class="fa-solid fa-gauge pe-2"></i>Speed : 19 knots</p>
+                </div>
+               </div>
+              </div><hr class="my-0"></hr>
+              <div>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-slash-circle"></i>
+                <span class="perrate">$500/Day</span>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+       <div class="view-all-btn"><a href class="https://dreamstour.dreamstechnologies.com/html/index-5.html" type="button">View All<i class="fa-solid fa-chevron-right"></i></a></div>
+      <div class="page-5-footer">
+        <div class="container px-5 py-4 my-5" style="border: 0px solid black; background-color: #212E47; border-radius: 10px; overflow: hidden; position: relative;">
+          <div style="position: absolute; top: 0px; left: 0px;"><img src="../DreamsTour/all images/bg-02.png" alt="img"></div>
+          <div style="position: absolute; bottom: 0px; right: 0px;"><img src="../DreamsTour/all images/bg-01.webp" alt="img"></div>
+        <div class="row py-4 px-5" style="color:#fff;">
+          <div class="col-3">
+            <p class="fw-bold fs-5 mb-1" style="text-align: center;"> <i class="fa-solid fa-globe me-2"></i>Desinations Worldwide</p>
+            <p class="fw-bold fs-2 mb-0" style="text-align: center;">50+</p>
+          </div>
+          <div class="col-3 ">
+            <p class="fw-bold fs-5 mb-1" style="text-align: center;"> <i class="fa-solid fa-calendar-week me-2"></i>Booking Compelted</p>
+            <p class="fw-bold fs-2 mb-0" style="text-align: center;">7000+</p> 
+          </div>
+          <div class="col-3 ">
+            <p class="fw-bold fs-5 mb-1" style="text-align: center;"><i class="fa-solid fa-users-rectangle me-2"></i>Client Globally</p>
+            <p class="fw-bold fs-2 mb-0" style="text-align: center;">100+</p>
+          </div>
+          <div class="col-3 ">
+            <p class="fw-bold fs-5 mb-1" style="text-align: center;"><i class="fa-solid fa-chart-line me-2"></i>Providers Registered</p>
+            <p class="fw-bold fs-2 mb-0" style="text-align: center;">89+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </section>
+    <section class="page-6 mb-5">
+     <div style="position: absolute; top: 0px; right: 0%;">
+        <img src="/projects/DreamsTour/all images/bg-03.webp" alt="">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 ">
+            <img src="/projects/DreamsTour/all images/faq.webp" alt="faq" width="85%">
+          </div>
+          <div class="col-6 mt-1 " style="position:relative;">
+            <p class="mb-1 mt-4">Frequently Asked Questions</p>
+            <p class="fw-bolder fs-3 mb-0">Specializing in dream destinations.</p>
+            <div class="row">
+              <div class="col-12 fw-bolder fs-5 mt-3 pe-0" style="background-color:#FEEDEB ;">
+            <div class="ques-ans mb-2"><button class="py-3 ps-4 d-flex" type="button">What types of tours do you offer? <span class="px-2" style="position: absolute; right: 0px; font-weight: 700;">+</span></button></div>
+            <div class="ques-ans mb-2"><button class="py-3 ps-4 d-flex" type="button">Are the tours cumtomizable? <span class="px-2" style="position: absolute; right: 0px; font-weight: 700;">+</span></button></div>
+            <div class="ques-ans mb-2"><button class="py-3 ps-4 d-flex" type="button">What safty measures do you follow? <span class="px-2" style="position: absolute; right: 0px; font-weight: 700;">+</span></button></div>
+            <div class="ques-ans mb-2"><button class="py-3 ps-4 d-flex" type="button">How far in advance should I book? <span class="px-2" style="position: absolute; right: 0px; font-weight: 700;">+</span></button></div>
+            <div class="ques-ans mb-2"><button class="py-3 ps-4 d-flex" type="button">What is your cancellation policy? <span class="px-2" style="position: absolute; right: 0px; font-weight: 700;">+</span>
+          </p></div></button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-8 mb-5">
+      <div class="container" style="background-color: #212E47; overflow: hidden; border-radius: 25px;">
+         <div class="row">
+          <div class="col-8">
+            <div class="row py-5 ps-5 pe-0">
+              <div class="get-touch col-7 pb-4">
+                <p class="fw-bolder fs-2" style="color: #fff;">Ready to Sail? Get in Touch!</p>
+                <p style="color: #fff; margin-bottom: 50px;">Have questions about destinations, onboard experiences, or special offers? Our team is here to guide you. Reach out and let's make your next adventure unforgettable!</p>
+                <a href="https://dreamstour.dreamstechnologies.com/html/index-5.html" target="_blank" class="py-2 px-2 mt-3">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="tilt-img col-4 " style="position: relative;">            
+            <img src="/projects/DreamsTour/all images/cruise-23.jpg" alt="slide-img" width="75%">
+          </div>
+        </div>
+        <div class="red-box">
+        </div>
+      </div>
+    </section>
+  <footer class="pt-5 pb-2 ">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-5">
+            <div class="pb-3 ">
+            <img src="logo-dark.svg" alt="logo">
+          </div>
+            <p class="footer-tag" style="color: rgb(99, 99, 99)">At Dreams Tour, we are committed to delivering a seamless and unforgettablecruise experience.</p>
+            <p class="fw-bolder fs-5 mb-0">Suscribe to Our Newsletter</p>
+            <p class="footer-tag mb-4" style="color: rgb(99, 99, 99)">Just sing up and we'll send you a notification by email.</p>
+            <div class="email-add">
+              <div> <i class="fa-solid fa-message"></i></div>
+            <input type="email" placeholder=" Enter Email Address" class="email-text ps-2" style="outline: 0px;">
+            <a href="https://dreamstour.dreamstechnologies.com/html/index-5.html" class="subs-btn fw-bolder py-2 px-3" target="_blank">Subscribe</a>
+          </div>
+          </div>
+          <div class="col-2">
+            <p class="fw-bolder fs-5">Pages</p>
+            <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Our Team</a></p>
+            <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Pricing Plans</a></p>
+            <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Gallery</a></p>
+            <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Settings</a></p>
+            <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Profile</a></p>
+            <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">listings</a></p>
+          </div>
+          <div class="col-2">
+            <p class="fw-bolder fs-5">Company</p>
+            <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">About us</a></p>
+            <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Careers</a></p>
+            <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Blog</a></p>
+            <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Affiliate Program</a></p>
+            <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Add Your Listing</a></p>
+            <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Our Partners</a></p>
+          </div>
+          <div class="col-3">
+            <p class="fw-bolder fs-5">Contact Info</p>
+            <div class="py-1" style="display: flex;"><p class="cust-support me-2"><i class="fa-solid fa-headset"></i></p>
+            <div><p class="footer-tag mb-0" style="color: rgb(99, 99, 99)">Customer Support </p>
+            <p class="footer-tag" style="color: rgb(99, 99, 99)">+1 55643846898</p></div>
+          </div>
+            <div class="py-1" style="display: flex;"><p class="cust-support me-2"><i class="fa-solid fa-envelope"></i></p>
+            <div><p class="footer-tag mb-0" style="color: rgb(99, 99, 99)">Drop Us an Email</p>
+            <p class="footer-tag" style="color: rgb(99, 99, 99)"> info@example.com</p></div>
+          </div>
+          <div class="py-1" style="display: flex;"><p class="cust-support me-2"><i class="fa-solid fa-phone"></i></p>
+          <div><p class="mb-0 footer-tag" style="color: rgb(99, 99, 99)">Toll Free</p>
+          <p class="footer-tag" style="color: rgb(99, 99, 99)">+1 55643846898</p></div>
+        </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container ">
+        <div class="row">
+        <div class="col-9 copyright">
+          <p>CopyRight 2025.All Rights Resrtved, <span style="color: rgb(212, 72, 59); font-size: large; font-weight: 500;">DreamsTour</span></p>
+        </div>
+        <div class="col-3 social-icons d-flex">
+          <span class="social-icons-1 mx-2"><i class="fa-brands fa-facebook "></i> </span>
+          <span class="social-icons-1 mx-2"><i class="fa-brands fa-twitter "></i>  </span>
+          <span class="social-icons-1 mx-2"><i class="fa-brands fa-instagram "></i></span>
+          <span class="social-icons-1 mx-2"><i class="fa-brands fa-linkedin "></i> </span>
+          <span class="social-icons-1 mx-2"><i class="fa-brands fa-whatsapp "></i> </span>
+        </div>
+      </div> 
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="/xyz/slick/slick.min.js"></script>
+<script src="/xyz/slick/slick.js"></script>
+   <script src="/xyz/slick/slick.min.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+     $('.first-slick').slick({
+      arrows:false,
+      slidesToShow: 5,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+     });
+     $('.page-2-hero-content').slick({
+  arrows:false,
+  accessibility:true,
+  slidesToShow: 6,
+  slidesToScroll: 1
+});
+   });
+ </script>
+  </body>
+</html>

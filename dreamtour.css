@@ -1,0 +1,408 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.top-header{
+    background-image: url("/projects/DreamsTour/cruise-banner.jpg");
+    background-size: cover;
+    padding: 25px 0 80px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-1{
+    background-color: #fcfcfc;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.top-box{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo{
+    width: 200px;
+}
+.menu{
+    width: 750px;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    color: #000;
+    margin-bottom: 0px;
+}
+.menu-options{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    list-style: none;
+}
+.list-options{ 
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.list-options:hover{
+    color: red;
+    cursor: pointer;
+}
+.header-last{
+    width: 150px;
+}
+.sign-btt{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.sign-btt :hover{
+    background-color: red;
+    cursor: pointer;
+}
+.our-service :hover{
+    color: white;
+    background-color: #CF3425;
+}
+.our-service a{
+    text-decoration: none;
+    color: #000;
+    border-radius: 100px;
+}
+.heading-2{
+    margin: 50px;
+    text-align: center;
+}
+.header-2-top{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.header-2-top-half{
+    color: red;
+}
+.page-2-hero-content{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.img-1{
+    text-align: center
+}
+.img-1:hover{
+    cursor: pointer;
+    color: red;
+}
+.img-1:hover a{
+    cursor: pointer;
+    color: red;
+}
+.img-1:hover img{
+    transition: all 0.7s ease;
+    border-radius: 30% !important;
+}
+.img-1 img{
+    transition: all 0.7s ease;
+}
+.img-1-text{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    color: #000; 
+}
+.img-1-text:hover{
+    color: red;
+    cursor: pointer;
+}
+.page-2-last-button{
+    text-align: center;
+    padding: 50px;
+   
+}
+.more-categories{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(194, 19, 19, 0.903);
+    border: 0px solid black;
+}
+.last-heading-item{
+    background-color: rgba(20, 20, 158, 0.944);
+}
+.page-3-hero{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.page-3-imgs{
+    display: flex;
+    border-radius: 20px !important;
+}
+.exp-15{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 45px;
+    background-color: rgb(65, 220, 255);
+    color: white;
+}
+.left-side-1 p{
+    border-top-left-radius:100px;
+}
+.left-side-1 img{
+    border-bottom-left-radius: 100px;
+}
+.left-side-2 img{
+    height: 465px;
+    object-position: center;
+    object-fit: cover;
+    margin-left: 15px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.page-3-note{
+    margin-left: 50px;
+}
+.discover{
+    font-size: 40px;
+    font-weight: bold;
+}
+.who{
+    color: rgba(194, 19, 19, 0.903);
+    text-decoration: underline;
+}
+.down-boxes{
+    display: flex;
+    padding-top: 20px;
+}
+.down-b-1{
+    width: 50%;
+    display: flex;
+    box-shadow: #b8b6b6 0px 0px 10px;
+    border-radius: 20px;
+}
+.ex-logo{
+    margin-top: 10px;
+  padding: 20px;
+  padding-right: 10px;
+}
+.down-b-2{
+    display: flex;
+    width: 50%;
+    margin-left: 25px;
+    box-shadow: #b8b6b6 0px 0px 10px;
+    border-radius: 20px;
+}
+.b-inside{
+    margin-left: 0px;
+}
+.tru-logo{
+    margin-top: 10px;
+  padding: 20px;
+  padding-right: 10px;
+}
+.b-2-head{
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.about-us{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(194, 19, 19, 0.903);
+    border: 0px solid black;
+}
+.heading-page4{
+    text-align: center;
+    /* padding: 25px; */
+}
+.page-4{
+    background-color: rgba(234, 231, 231, 0.497);
+    
+}
+.main-image-box .image-content{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.main-image-box .image-content .heading-first{
+  font-size: 22px;
+}
+.main-image-box .image-content p{
+    font-size: 20px;
+  }
+  .main-image-box  .overlay-black{
+    background: #000;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .main-image-box img
+  {
+    opacity: 0.7;
+    transition: all 1s ease-in-out;
+  }
+
+.main-image-box img:hover{
+    transform: scale(1.2);
+    transition: all 1s ease-in-out;
+}
+.main-image-box{
+    margin-bottom: 20px;
+}
+ .page-4-bottom .container .row {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .page-5-cards{
+    border: 0px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+ }
+ .reviews
+ {
+   font-size: medium;
+
+ }
+ .reviews img
+ {
+   border: 0px solid white;
+   border-radius: 100%;
+   overflow: hidden;
+   background-position: center;
+ }
+ .view-all-btn a{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(212, 72, 59);
+    text-decoration: none;
+    border-radius: 50px;
+    width: 120px; 
+    color:#fcfcfc;
+    text-decoration: none;
+    position: relative;
+    align-items: center;
+ }
+ .page-6{
+    background-color: #FEEDEB;
+    padding: 60px;
+    position: relative;
+ }
+ .ques-ans{
+    background-color: white;
+    border-radius: 10px;
+ }
+ .ques-ans button{
+    position: relative;
+   background-color: white;
+   border: 0px;
+   border-radius: 50px;
+   font-weight: 600;
+   font-size:large;
+   width: 100%;
+ }
+ .get-touch a{
+    text-decoration: none;
+    background-color: white;
+    color: #000;
+    border-radius: 25px;
+ }
+ .tilt-img img{
+    position: absolute;
+    object-position: center;
+    rotate: 25deg;
+    top: -70px;
+    right: 30px;
+    height: 650px;
+ }
+ .red-box{
+    position: relative;
+    height: 65px;
+    width: 250px;
+    left: -15px;
+    border: 0px solid red;
+    background-color: #CF3425;
+ }
+ .page-8 .container,.page-8 .container:hover,.page-8 .container .tilt-img, .page-8 .container .tilt-img img{
+    
+    transition: all .7s ease-in-out;
+}
+
+ .page-8 .container:hover .tilt-img img{
+ right: 75px;
+ transition: all .7s ease-in-out;
+ }
+
+ footer{
+    background-color:#F1F4F7;
+ }
+ .cust-support{
+    border: 0px solid black;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(156, 156, 156, 0.496);
+ }
+ .email-add{
+    border: 0px solid black;
+    background-color: white;
+    width: 90%;
+    border-radius: 100px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .email-text{
+    width: 75%;
+    text-decoration: none;
+    border: none;
+    text-box: none;
+ }
+ .subs-btn{
+    border: 0px solid black;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgb(212, 72, 59);
+    color: white;
+    text-decoration: none;
+ }
+ .social-icons-1{
+    border: 0px solid black;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(156, 156, 156, 0.496);
+ }
+ .footer-tag a:hover {
+    color: #CF3425 !important;
+}
+@media only screen and (max-width: 768px) {
+.menu , .header-last ,.search-a-cruise, .page-2-hero-content, .services-icons, .service-box-inside, .page-2-hero-content, .last-heading, .page-3-hero, .page-4-bottom , footer{
+    display: none !important;
+}   
+}
