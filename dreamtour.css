@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .top-header{
-    background-image: url("/projects/DreamsTour/cruise-banner.jpg");
+    background-image: url("cruise-banner.jpg");
     background-size: cover;
     padding: 25px 0 80px;
     position: relative;
