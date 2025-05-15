@@ -11,6 +11,13 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.pop-up
+{
+background-image: url("gallery-13.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
 .header-1{
     background-color: #fcfcfc;
     padding: 20px;
@@ -401,8 +408,21 @@ align-items: center;
  .footer-tag a:hover {
     color: #CF3425 !important;
 }
+.slick-next{
+    position: absolute !important;
+    top: 50% !important;
+    right: 0px !important;
+    width: 35px !important;
+    background: transparent !important;
+    color: transparent !important;
+}
 @media only screen and (max-width: 768px) {
 .menu , .header-last ,.search-a-cruise, .page-2-hero-content, .services-icons, .service-box-inside, .page-2-hero-content, .last-heading, .page-3-hero, .page-4-bottom , footer{
     display: none !important;
-}   
+}  
+ .search-for-cruise 
+ {
+    width:100% !important ;
+    display: block !important;
+}
 }

@@ -59,10 +59,27 @@
           </div>
         </header>
       </div>
+      <div id="popupbox" class=" container" style="display: none;" >
+      <div class="container" style="display: flex; justify-content: center; position: absolute; height: 500px; width: 100%;" >
+      <div class="row pop-up" style="text-align: center;">
+        <div class="col">
+          <a href="javascript:void(0)" id="cutpopup" style="color: #000;"><i class="fa-solid fa-circle-xmark" style="right: 10px;"></i></a>
+          <div class="container">
+            <p class="h2">GET 10% DISCOUNT</p>
+            <p class="h2">BOOK NOW</p>
+            <input placeholder="GET10NOW">
+            <ul>
+              <li>terms and condition apply</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
       <section class="hero-section-1">
         <div class="container py-5 mt-5">
           <div class="row">
-            <div class="col-7 py-5" style="color: white;">
+            <div class="col-12 col-md-8 col-lg-7 py-5" style="color: white;">
               <p class="fs-1 fw-bolder">
               Discover the World's Most Breathtaking Cruises
               </p>
@@ -83,7 +100,7 @@
                 </ul>
                 <hr>
                 <p class="fs-4 mb-0 ms-1">Search For Cruise</p>
-                  <div class="row pb-5 pt-3 px-3">
+                  <div class="row pb-5 pt-3 px-3 search-for-cruise" >
                     <div class="col"  style="border: 1px solid rgba(78, 78, 78, 0.45);">
                       <div class="pt-3">
                       <p class="mb-3">Destination</p>
@@ -121,6 +138,7 @@
           </div>
         </div>
       </section>
+      
       </div>
     </section>
     <section class="page-2">
@@ -643,11 +661,17 @@
   autoplaySpeed: 2000,
      });
      $('.page-2-hero-content').slick({
-  arrows:false,
+  arrows:true,
   accessibility:true,
   slidesToShow: 6,
   slidesToScroll: 1
 });
+   });
+   setTimeout(cutpopup,6000);
+   function cutpopup() {
+    document.querySelector("#popupbox").style.display = "block";
+   }
+   var cut= document.querySelector("#cutpopup").addEventListener(`click`,()=>{ document.querySelector("#popupbox").style.display="none";
    });
  </script>
   </body>
