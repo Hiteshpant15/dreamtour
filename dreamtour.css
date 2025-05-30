@@ -13,10 +13,11 @@
 }
 .pop-up
 {
-background-image: url("gallery-13.jpg");
+background-color: rgb(205, 204, 204);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+width: 50%;
 }
 .header-1{
     background-color: #fcfcfc;
@@ -408,6 +409,53 @@ align-items: center;
  .footer-tag a:hover {
     color: #CF3425 !important;
 }
+
+#popupbox
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #000000c7;
+    z-index: 99;
+}
+#popupbox .col{
+    position: relative;
+}
+#popupbox .col a{
+    position: absolute;
+    right: 5px;
+}
+#popupbox .first-clm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     box-shadow: 0px 0px 20px 2px #0005;
+}
+#popupbox .second-clm input,#popupbox .second-clm textarea {
+background-color: transparent !important;
+    border: 1px solid #0004;
+    padding: 5px 10px;
+     margin-bottom: 10px;
+}
+#popupbox .second-clm button{
+    border:0px;
+    background-color:#29326f;
+    color: #fff;
+}
+.Enquire-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 .slick-next{
     position: absolute !important;
     top: 50% !important;
@@ -424,5 +472,12 @@ align-items: center;
  {
     width:100% !important ;
     display: block !important;
+}
+.pop-up
+{
+width: 100%;
+}
+#popupbox .first-clm{
+    box-shadow: none;
 }
 }

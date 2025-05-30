@@ -54,28 +54,12 @@
               </ul>
             </div>
             <div class="header-last">
-              <a href="" class="sign-btt">sign in <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="javascript:void(0)" class="sign-btt" onclick="showPopup()">Enquire Now<i class="fa-solid fa-chevron-right"></i></a>
             </div>
           </div>
         </header>
       </div>
-      <div id="popupbox" class=" container" style="display: none;" >
-      <div class="container" style="display: flex; justify-content: center; position: absolute; height: 500px; width: 100%;" >
-      <div class="row pop-up" style="text-align: center;">
-        <div class="col">
-          <a href="javascript:void(0)" id="cutpopup" style="color: #000;"><i class="fa-solid fa-circle-xmark" style="right: 10px;"></i></a>
-          <div class="container">
-            <p class="h2">GET 10% DISCOUNT</p>
-            <p class="h2">BOOK NOW</p>
-            <input placeholder="GET10NOW">
-            <ul>
-              <li>terms and condition apply</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      </div>
-      </div>
+    
       <section class="hero-section-1">
         <div class="container py-5 mt-5">
           <div class="row">
@@ -647,6 +631,42 @@
       </div> 
       </div>
     </footer>
+
+
+    <!-- pop-up maker -->
+
+      <div id="popupbox" class="container" style="display: none;" >
+      <div class="container" style="display: flex; justify-content: center; height: 500px; width: 100%;" >
+      <div class="row pop-up bg-white" style="text-align: center;">
+        <div class="col">
+          <a href="javascript:void(0)" id="cutpopup" style="color: #000;"><i class="fa-solid fa-circle-xmark" style="right: 10px;"></i></a>
+          <div class="container Enquire-box">
+           <div class="row">
+            <div class="col-12 col-md-6 first-clm" style="background-color: white;">
+              <p class="display-3 fw-bolder" style="color: #29326f;">Enquire Now</p>
+              <p class="h5" style="color: #29326f;">Have a question? Send us a message — we’ll reply soon!</p>
+            </div>
+            <div class="col-12 col-md-6  pt-3 second-clm">
+              <input type="text" class="w-100" placeholder="Full Name" >
+              <input type="email" class="w-100" placeholder="Email">
+              <input type="number" class="w-100" placeholder="Phone number">
+              <textarea name="message" placeholder="Message" rows="4" class="w-100" id=""></textarea>
+              <button class="d-flex justify-content-center align-items-center w-100 p-2" > 
+                <i class="fa-solid fa-square-caret-right me-2"></i>
+                <p class="h5 mb-0">Enquire Now</p>
+              </button>
+              <p class="mt-2" style="font-size: 13px;">*We never spam, and we also don’t like it.</p>
+          </div>
+           </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="slick/slick.min.js"></script>
 <script src="slick/slick.js"></script>
@@ -669,10 +689,13 @@
    });
    setTimeout(cutpopup,6000);
    function cutpopup() {
-    document.querySelector("#popupbox").style.display = "block";
+    document.querySelector("#popupbox").style.display = "flex";
    }
-   var cut= document.querySelector("#cutpopup").addEventListener(`click`,()=>{ document.querySelector("#popupbox").style.display="none";
+   var cut= document.querySelector("#cutpopup").addEventListener(`click`,()=>{ document.querySelector("#popupbox").style.display="none ";
    });
+   function showPopup(){
+    document.querySelector("#popupbox").style.display = "flex";
+   }
  </script>
   </body>
 </html>
