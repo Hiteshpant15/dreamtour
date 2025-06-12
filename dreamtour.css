@@ -63,6 +63,9 @@ align-items: center;
 .header-last{
     width: 150px;
 }
+.header-last-mb{
+    display: none;
+}
 .sign-btt{
     color: white;
     background-color: black;
@@ -464,8 +467,17 @@ background-color: transparent !important;
     background: transparent !important;
     color: transparent !important;
 }
+.slick-prev {
+    position: absolute !important;
+    top: 50% !important;
+    left: 0px !important;
+    width: 35px !important;
+    background: transparent !important;
+    color: transparent !important;
+    z-index: 1;
+}
 @media only screen and (max-width: 768px) {
-.menu , .header-last ,.search-a-cruise, .page-2-hero-content, .services-icons, .service-box-inside, .page-2-hero-content, .last-heading, .page-3-hero, .page-4-bottom , footer{
+.menu , .header-last ,.search-a-cruise,.page-2-hero-content, .services-icons, .service-box-inside, .last-heading, .page-3-hero, .page-4-bottom ,.Frequently-image,.tilt-img,.red-box{
     display: none !important;
 }  
  .search-for-cruise 
@@ -479,5 +491,11 @@ width: 100%;
 }
 #popupbox .first-clm{
     box-shadow: none;
+}
+.header-last-mb{
+    display: block;
+}
+.page-6 {
+    padding: 10px;
 }
 }

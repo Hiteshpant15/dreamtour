@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="dreamtour.css" />
-    <link rel="stylesheet" href="dreamtour.js">
+
+  <script src="dreamtour.js"></script>
+    <script src="slick/slick.min.js"></script>
+<script src="slick/slick.js"></script>
+   <script src="slick/slick.min.js"></script>
     <script src="dreamtour.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -15,6 +19,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="slick/slick.css">
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
   </head>
   <body>
     <section class="top-header">
@@ -55,6 +61,9 @@
             </div>
             <div class="header-last">
               <a href="javascript:void(0)" class="sign-btt" onclick="showPopup()">Enquire Now<i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <div class="header-last-mb">
+              <i class="fa-solid fa-bars"></i>
             </div>
           </div>
         </header>
@@ -122,7 +131,6 @@
           </div>
         </div>
       </section>
-      
       </div>
     </section>
     <section class="page-2">
@@ -137,43 +145,43 @@
           </p>
         </header>
         <div class="page-2-hero-content row">
-          <div class="img-1 col-2">
+          <div class="img-1 col-6 col-md-2">
           <img src="all images/cruise-15.jpg" alt="" style="border-radius: 40%;">
           <a href="" class="img-1-text">Luxury Cruise</a>
           </div>
-          <div class="img-1 col-2">
+          <div class="img-1 col-6 col-md-2">
           <img src="all images/cruise-16.jpg" alt=""style="border-radius: 40%;">
           <a href="" class="img-1-text">Adventure Cruise</a>
           </div>
-          <div class="img-1 col-2">
+          <div class="img-1 col-6 col-md-2">
           <img src="all images/cruise-17.jpg" alt=""style="border-radius: 40%;">
           <a href="" class="img-1-text">Expedition Cruise</a>
           </div>
-          <div class="img-1 col-2">
+          <div class="img-1 col-6 col-md-2">
           <img src="all images/cruise-18.jpg" alt=""style="border-radius: 40%;">
           <a href="" class="img-1-text">Family Cruise</a>
           </div>
-          <div class="img-1 col-2">
+          <div class="img-1 col-6 col-md-2">
           <img src="all images/cruise-19.jpg" alt=""style="border-radius: 40%;">
           <a href="" class="img-1-text">River Cruise</a>
           </div>
-          <div class="img-1 col-2">
+          <div class="img-1 col-6 col-md-2">
           <img src="all images/cruise-20.jpg" alt="" style="border-radius: 40%;">
          <a href="" class="img-1-text">World Cruises</a>
           </div>
-          <div class="img-1 col-2">
+          <div class="img-1 col-6 col-md-2">
             <img src="all images/cruise-15.jpg" alt="" style="border-radius: 40%;">
             <a href="" class="img-1-text">Luxury Cruise</a>
             </div>
-            <div class="img-1 col-2">
+            <div class="img-1 col-6 col-md-2">
               <img src="all images/cruise-18.jpg" alt=""style="border-radius: 40%;">
               <a href="" class="img-1-text">Family Cruise</a>
               </div>
-              <div class="img-1 col-2">
+              <div class="img-1 col-6 col-md-2">
                 <img src="all images/cruise-16.jpg" alt=""style="border-radius: 40%;">
                 <a href="" class="img-1-text">Adventure Cruise</a>
                 </div>
-                <div class="img-1 col-2">
+                <div class="img-1 col-6 col-md-2">
                   <img src="all images/cruise-19.jpg" alt=""style="border-radius: 40%;">
                   <a href="" class="img-1-text">River Cruise</a>
                   </div>
@@ -258,7 +266,7 @@
           </div>
         </div>
         <div class="row image-box">
-          <div class="col-3">
+          <div class="col-12 col-md-3">
             
              <div class="main-image-box position-relative">
                <div class="overlay-black">
@@ -280,7 +288,7 @@
                </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-12 col-md-3">
             <div class="main-image-box position-relative">
               <div class="overlay-black">
                 <img src="all images/destination-09.webp" alt="destination" width="100%">
@@ -300,7 +308,7 @@
                </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-12 col-md-3">
             <div class="main-image-box position-relative">
               <div class="overlay-black">
                 <img src="all images/destination-11.jpg" alt="destination" width="100%">
@@ -320,7 +328,7 @@
                </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-12 col-md-3">
             <div class="main-image-box position-relative">
               <div class="overlay-black">
                 <img src="all images/destination-13.jpg" alt="destination" width="100%">
@@ -345,7 +353,7 @@
       <div class="page-4-bottom " style="background-color:red;">
         <div class="container">
           <div class="row first-slick ms-5">
-          <div class="col-2 fw-bold py-4 "><i class="fa-regular fa-message"></i>LiveChat</div>
+          <div class= "col-md-2 fw-bold py-4 "><i class="fa-regular fa-message"></i>LiveChat</div>
           <div class="col-2 fw-bold py-4 ">Pandasuite</div>
           <div class="col-2 fw-bold py-4 "><i class="fa-brands fa-paypal"></i>Payhere</div>
           <div class="col-2 fw-bold py-4 "><i class="fa-solid fa-circle"></i>Headspace</div>
@@ -359,16 +367,16 @@
       </div>
     </section>
     <section class="page-5 py-5">
-      <div class="container py-3" style="text-align: center;">
+      <div class="container py-md-3" style="text-align: center;">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 ">
             <h2 class="text-center fw-bold">Featured <span style="color: red; text-decoration: underline;">Cruises</span></h2>
-            <p class="text-center mb-0">Discover our handpicked selection of top-rated cruises,offering </p>
-            <p  class="text-center">exceptional experiences and unbeatable deals</p>
+            <p class="text-center  mb-0">Discover our handpicked selection of top-rated cruises,offering
+           exceptional experiences and unbeatable deals</p>
           </div>
         </div>
        <div class="row pb-5">
-        <div class="col-3">
+        <div class="col-12 col-md-3 my-2 my-md-0">
           <div class="page-5-cards pb-4" style="background-color: rgba(174, 174, 174, 0.559);">
             <div class="cruises-img">
               <img src="all images/cruise-01.webp" alt="cruise-1" width="100%">
@@ -398,7 +406,8 @@
             </div>
           </div>
           </div>
-        </div><div class="col-3">
+        </div>
+        <div class="col-12 col-md-3 my-2 my-md-0">
           <div class="page-5-cards pb-4" style="background-color: rgba(174, 174, 174, 0.559);">
             <div class="cruises-img">
               <img src="all images/cruise-02.webp" alt="cruise-1" width="100%">
@@ -428,7 +437,8 @@
             </div>
           </div>
           </div>
-        </div><div class="col-3">
+        </div>
+        <div class="col-12 col-md-3 my-2 my-md-0">
           <div class="page-5-cards pb-4" style="background-color: rgba(174, 174, 174, 0.559);">
             <div class="cruises-img">
               <img src="all images/cruise-03.webp" alt="cruise-1" width="100%">
@@ -459,7 +469,7 @@
           </div>
           </div>
         </div>
-          <div class="col-3">
+          <div class="col-12 col-md-3 my-2 my-md-0">
             <div class="page-5-cards pb-4" style="background-color: rgba(174, 174, 174, 0.559);">
               <div class="cruises-img">
                 <img src="all images/cruise-03.webp" alt="cruise-1" width="100%">
@@ -492,24 +502,24 @@
           </div>
         </div>
        <div class="view-all-btn"><a href class="https://dreamstour.dreamstechnologies.com/html/index-5.html" type="button">View All<i class="fa-solid fa-chevron-right"></i></a></div>
-      <div class="page-5-footer">
-        <div class="container px-5 py-4 my-5" style="border: 0px solid black; background-color: #212E47; border-radius: 10px; overflow: hidden; position: relative;">
-          <div style="position: absolute; top: 0px; left: 0px;"><img src="../DreamsTourall images/bg-02.png" alt="img"></div>
-          <div style="position: absolute; bottom: 0px; right: 0px;"><img src="../DreamsTourall images/bg-01.webp" alt="img"></div>
+      <div class="page-5-footer mt-md-0 mt-5">
+        <div class="container px-md-5 py-md-4 my-md-5" style="border: 0px solid black; background-color: #212E47; border-radius: 10px; overflow: hidden; position: relative;">
+          <div style="position: absolute; top: 0px; left: 0px;"><img src="all images/bg-02.png" alt="img"></div>
+          <div style="position: absolute; bottom: 0px; right: 0px;"><img src="all images/bg-01.webp" alt="img"></div>
         <div class="row py-4 px-5" style="color:#fff;">
-          <div class="col-3">
+          <div class="col-12 col-md-3">
             <p class="fw-bold fs-5 mb-1" style="text-align: center;"> <i class="fa-solid fa-globe me-2"></i>Desinations Worldwide</p>
             <p class="fw-bold fs-2 mb-0" style="text-align: center;">50+</p>
           </div>
-          <div class="col-3 ">
+          <div class="col-12 col-md-3 ">
             <p class="fw-bold fs-5 mb-1" style="text-align: center;"> <i class="fa-solid fa-calendar-week me-2"></i>Booking Compelted</p>
             <p class="fw-bold fs-2 mb-0" style="text-align: center;">7000+</p> 
           </div>
-          <div class="col-3 ">
+          <div class="col-12 col-md-3 ">
             <p class="fw-bold fs-5 mb-1" style="text-align: center;"><i class="fa-solid fa-users-rectangle me-2"></i>Client Globally</p>
             <p class="fw-bold fs-2 mb-0" style="text-align: center;">100+</p>
           </div>
-          <div class="col-3 ">
+          <div class="col-12 col-md-3 ">
             <p class="fw-bold fs-5 mb-1" style="text-align: center;"><i class="fa-solid fa-chart-line me-2"></i>Providers Registered</p>
             <p class="fw-bold fs-2 mb-0" style="text-align: center;">89+</p>
           </div>
@@ -519,19 +529,19 @@
       </div>
     </section>
     <section class="page-6 mb-5">
-     <div style="position: absolute; top: 0px; right: 0%;">
+     <div style=" position: absolute; top: 0px; right: 0%;">
         <img src="all images/bg-03.webp" alt="">
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-6 ">
+          <div class="Frequently-image col-6 ">
             <img src="all images/faq.webp" alt="faq" width="85%">
           </div>
-          <div class="col-6 mt-1 " style="position:relative;">
+          <div class="col-12 col-md-6 mt-1 " style="position:relative;">
             <p class="mb-1 mt-4">Frequently Asked Questions</p>
             <p class="fw-bolder fs-3 mb-0">Specializing in dream destinations.</p>
             <div class="row">
-              <div class="col-12 fw-bolder fs-5 mt-3 pe-0" style="background-color:#FEEDEB ;">
+              <div class="col-12 fw-bolder fs-5 mt-3 pe-md-0" style="background-color:#FEEDEB ;">
             <div class="ques-ans mb-2"><button class="py-3 ps-4 d-flex" type="button">What types of tours do you offer? <span class="px-2" style="position: absolute; right: 0px; font-weight: 700;">+</span></button></div>
             <div class="ques-ans mb-2"><button class="py-3 ps-4 d-flex" type="button">Are the tours cumtomizable? <span class="px-2" style="position: absolute; right: 0px; font-weight: 700;">+</span></button></div>
             <div class="ques-ans mb-2"><button class="py-3 ps-4 d-flex" type="button">What safty measures do you follow? <span class="px-2" style="position: absolute; right: 0px; font-weight: 700;">+</span></button></div>
@@ -544,12 +554,12 @@
         </div>
       </div>
     </section>
-    <section class="page-8 mb-5">
+    <section class="page-8 mb-5 mx-md-0 mx-2">
       <div class="container" style="background-color: #212E47; overflow: hidden; border-radius: 25px;">
          <div class="row">
-          <div class="col-8">
+          <div class="col-12 col-md-8">
             <div class="row py-5 ps-5 pe-0">
-              <div class="get-touch col-7 pb-4">
+              <div class="get-touch col-12 col-md-7 pb-4">
                 <p class="fw-bolder fs-2" style="color: #fff;">Ready to Sail? Get in Touch!</p>
                 <p style="color: #fff; margin-bottom: 50px;">Have questions about destinations, onboard experiences, or special offers? Our team is here to guide you. Reach out and let's make your next adventure unforgettable!</p>
                 <a href="https://dreamstour.dreamstechnologies.com/html/index-5.html" target="_blank" class="py-2 px-2 mt-3">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
@@ -567,7 +577,7 @@
   <footer class="pt-5 pb-2 ">
       <div class="container py-3">
         <div class="row">
-          <div class="col-5">
+          <div class="col-12 col-md-5">
             <div class="pb-3 ">
             <img src="all images/logo-dark.svg" alt="logo">
           </div>
@@ -580,7 +590,7 @@
             <a href="https://dreamstour.dreamstechnologies.com/html/index-5.html" class="subs-btn fw-bolder py-2 px-3" target="_blank">Subscribe</a>
           </div>
           </div>
-          <div class="col-2">
+          <div class="col-12 col-md-2">
             <p class="fw-bolder fs-5">Pages</p>
             <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Our Team</a></p>
             <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Pricing Plans</a></p>
@@ -589,7 +599,7 @@
             <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Profile</a></p>
             <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">listings</a></p>
           </div>
-          <div class="col-2">
+          <div class="col-12 col-md-2">
             <p class="fw-bolder fs-5">Company</p>
             <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">About us</a></p>
             <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Careers</a></p>
@@ -598,7 +608,7 @@
             <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Add Your Listing</a></p>
             <p class="footer-tag mb-2 pb-1"><a style="text-decoration: none; color: rgb(99, 99, 99);" href="">Our Partners</a></p>
           </div>
-          <div class="col-3">
+          <div class="col-12 col-md-3">
             <p class="fw-bolder fs-5">Contact Info</p>
             <div class="py-1" style="display: flex;"><p class="cust-support me-2"><i class="fa-solid fa-headset"></i></p>
             <div><p class="footer-tag mb-0" style="color: rgb(99, 99, 99)">Customer Support </p>
@@ -618,10 +628,10 @@
       <hr>
       <div class="container ">
         <div class="row">
-        <div class="col-9 copyright">
+        <div class="col-12 col-md-9 copyright">
           <p>CopyRight 2025.All Rights Resrtved, <span style="color: rgb(212, 72, 59); font-size: large; font-weight: 500;">DreamsTour</span></p>
         </div>
-        <div class="col-3 social-icons d-flex">
+        <div class="col-12 col-md-3 social-icons d-flex">
           <span class="social-icons-1 mx-2"><i class="fa-brands fa-facebook "></i> </span>
           <span class="social-icons-1 mx-2"><i class="fa-brands fa-twitter "></i>  </span>
           <span class="social-icons-1 mx-2"><i class="fa-brands fa-instagram "></i></span>
@@ -663,9 +673,10 @@
       </div>
       </div>
       </div>
+<!-- <div class="slick-next"><i class="fa-solid fa-angle-right"></i></div> -->
 
 
-
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="slick/slick.min.js"></script>
@@ -684,7 +695,17 @@
   arrows:true,
   accessibility:true,
   slidesToShow: 6,
-  slidesToScroll: 1
+  slidesToScroll: 1,
+   responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    }
+  ]
 });
    });
    setTimeout(cutpopup,6000);
