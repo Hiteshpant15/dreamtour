@@ -42,6 +42,7 @@ align-items: center;
     justify-content: space-evenly;
     align-items: center ;
     color: #000;
+    list-style: none;
     margin-bottom: 0px;
 }
 .menu-options{
@@ -49,7 +50,9 @@ align-items: center;
     font-size: 20px;
     font-weight: bold;
     color: black;
-    list-style: none;
+}
+.cut-nevbar{
+    display: none;
 }
 .list-options{ 
     text-align: center;
@@ -63,7 +66,7 @@ align-items: center;
 .header-last{
     width: 150px;
 }
-.header-last-mb{
+.open-navbar{
     display: none;
 }
 .sign-btt{
@@ -423,7 +426,7 @@ align-items: center;
     height: 100vh;
     display: flex;
     align-items: center;
-    background: #000000c7;
+    background: #000000df;
     z-index: 99;
 }
 #popupbox .col{
@@ -476,14 +479,49 @@ background-color: transparent !important;
     color: transparent !important;
     z-index: 1;
 }
+.popup-container{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 60% !important;
+}
 @media only screen and (max-width: 768px) {
-.menu , .header-last ,.search-a-cruise,.page-2-hero-content, .services-icons, .service-box-inside, .last-heading, .page-3-hero, .page-4-bottom ,.Frequently-image,.tilt-img,.red-box{
+.header-last ,.services-icons, .service-box-inside, .last-heading, .page-3-hero, .page-4-bottom ,.Frequently-image,.tilt-img,.red-box{
     display: none !important;
 }  
+.menu-list{
+    display: none;
+    padding: 25px;
+    position: fixed;
+    left: 0px;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    z-index: 5;
+}
+.open-navbar{
+    display: block;
+}
+.cut-nevbar{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    font-size: 20px;
+}
+.our-service :hover{
+    color: white;
+    background-color: #CF3425;
+}
+.popup-container{
+    width: 100% !important; 
+}
+}
  .search-for-cruise 
  {
     width:100% !important ;
-    display: block !important;
+    /* display: block !important; */
 }
 .pop-up
 {
@@ -498,4 +536,14 @@ width: 100%;
 .page-6 {
     padding: 10px;
 }
+.img-1 img{
+    width: 80%;
+}
+.slick-next {
+    position: absolute !important;
+    top: 50% !important;
+    right: 15px !important;
+    width: 35px !important;
+    background: transparent !important;
+    color: transparent !important;
 }
